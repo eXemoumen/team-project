@@ -10,7 +10,3 @@
     --backgrond_color:#16202A;
     --twetter_color : #60A5FA;
 }
-/* this is exmpel to how to use it delet it when you start working */
-body{
-    background-color: var(--backgrond_color);
-}
