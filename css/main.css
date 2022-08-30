@@ -32,7 +32,7 @@
     height: 110px;
     display: flex;
     align-items: center;
-    border-bottom:solid 0.37px #7a849073 ;
+
 }
 .profile-pic img{
     width: 50px;
@@ -80,4 +80,25 @@
 }
 .writing-section button:hover{
     background-color: var(--hover_backgrond_color);
+}
+.thered-section div{
+    height: 10px;
+    width: 100%;
+    background-color: var( --gray-color );
+    border:solid 0.37px #7a849073 ;
+}
+.thered-section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgrond_color);
+    color: var(--twetter_color);
+    font-size: var(--font_size);
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    padding: 20px;
+}
+.thered-section button:hover{
+    color: var(--hover_backgrond_color);
 }
