@@ -24,7 +24,60 @@
     font-weight: 400;
     margin-right: 50px;
 }
-.topDiv span:hover{
+.topDiv span:hover {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
+}
+.writing-section{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    border-bottom:solid 0.37px #7a849073 ;
+}
+.profile-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: solid 0.37px #7a849073;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.writing-section input{
+    height: 80px;
+    width: 100%;
+    background-color: var(--backgrond_color);
+    border: none;
+    margin-left: 15px;
+    color: var(--font_color);
+    font-size: var(--font_size);
+}
+.writing-section input:focus{
+    background-color: var(--backgrond_color) ;
+    outline: none;
+}
+
+.writing-section button{
+    display: flex;
+    height: 25px;
+    width: 80px;
+    background-color: var(--twetter_color);
+    color: var(--font_color);
+    font-size: var(--font_size);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10%;
+}
+.writing-section button:hover{
+    background-color: var(--hover_backgrond_color);
 }

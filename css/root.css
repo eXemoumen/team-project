@@ -1,0 +1,14 @@
+/* this are the css rule */
+/* this are the variable */
+:root{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:Roboto, sans-serif;
+    --backgrond_color:#16202A;
+    --hover_backgrond_color:#1b72dd;
+    --twetter_color : #4a96f3;
+    --font_size : 15px;
+    --font_color : #ffffff;
+    --icon_size :13px;
+}
