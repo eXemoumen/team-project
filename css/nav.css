@@ -14,3 +14,9 @@
 body{
     background-color: var(--backgrond_color);
 }
+#leftNav{
+    width: 25%;
+}
+#mainPage{
+    width: 50%;
+}
