@@ -9,7 +9,12 @@
     --hover_backgrond_color:#1b72dd;
     --twetter_color : #4a96f3;
     --gray-color : #202E39;
-    --font_size : 17px;
+    --font_size1 : 17px;
+    --font_size2:13px;
     --font_color : #ffffff;
+    --font_colorGray :#5D6673;
     --icon_size :13px;
+}
+::placeholder{
+    color: var(--font_colorGray);
 }
