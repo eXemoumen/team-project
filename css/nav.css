@@ -6,17 +6,18 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family:'Roboto', sans-serif;
+    font-family:Roboto, sans-serif;
     --backgrond_color:#16202A;
     --twetter_color : #60A5FA;
+    --font_size : 15px;
+    --font_color : #ffffff;
+    --icon_size :13px;
 }
 /* this is exmpel to how to use it delet it when you start working */
 body{
     background-color: var(--backgrond_color);
+    display: flex;
 }
 #leftNav{
     width: 25%;
-}
-#mainPage{
-    width: 50%;
 }
