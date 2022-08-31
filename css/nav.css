@@ -2,26 +2,6 @@
 
 /* this are the css rule */
 /* this are the variable */
-:root{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    font-family:'Roboto', sans-serif;
-    --backgrond_color:#16202A;
-    --twetter_color : #60A5FA;
-}
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 #leftNav{
     width: 25%;
-}
-
-body{
-    --twitter-color:#50b7f5;
-    --twitter-background:#e6ecf0;
-    background-color: rgb(22, 26, 36);
 }
