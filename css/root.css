@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     font-family:Roboto, sans-serif;
+    text-transform: capitalize;
     --backgrond_color:#16202A;
     --hover_backgrond_color:#1b72dd;
     --twetter_color : #4a96f3;
